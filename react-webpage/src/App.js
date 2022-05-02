@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Featured from "./Featured";
+import Cards from "./CardSection";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Jumbotron />
       <Featured />
+      <Cards />
     </div>
   );
 };

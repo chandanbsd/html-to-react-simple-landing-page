@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Featured from "./Featured";
 import Cards from "./CardSection";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Jumbotron />
       <Featured />
       <Cards />
+      <Footer />
     </div>
   );
 };
